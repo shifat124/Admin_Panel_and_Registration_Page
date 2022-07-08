@@ -1,0 +1,84 @@
+@import './variables';
+@import './paySuccess';
+@import './profile';
+@import './admin';
+@import './tournamentRegister';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    @media (max-width: 575.98px) {
+        font-size: 12px;
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+        font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1299.98px) {
+        font-size: 12px;
+    }
+    @media (min-width: 1300px) and (max-width: 1531.98px) {
+        font-size: 12px;
+    }
+    @media (min-width: 1532px) and (max-width: 1600px) {
+        font-size: 12px;
+    }
+    @media (min-width: 2500px) {
+        font-size: 24px;
+    }
+}
+
+body {
+    background-color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+select,
+input,
+textarea,
+button {
+    outline: none !important;
+}
+
+.btn:focus,
+.btn.focus,
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-link:focus,
+.btn-link.focus {
+    text-decoration: none;
+}

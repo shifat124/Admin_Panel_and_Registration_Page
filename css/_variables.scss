@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Acumin;
+    src: url(../fonts/Acumin-Variable-Concept.ttf);
+}
+
+@font-face {
+    font-family: sansProRegular;
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: Alfphabet;
+    src: url(../fonts/Alfphabet-IV.ttf);
+}
+
+@font-face {
+    font-family: Atrox;
+    src: url(../fonts/ATROX.TTF);
+}
+
+:root {
+    --white: #F9F5EF;
+    --blue: #14144A;
+    --navyblue: #101F43;
+    --purple: #492658;
+    --red: #8F1E3F;
+    --pink: #F030C0;
+    --black: #14141F;
+    --yellow: #FFDE17;
+}
+
+$white: var(--white);
+$purple: var(--purple);
+$blue: var(--blue);
+$navyblue: var(--navyblue);
+$red: var(--red);
+$pink: var(--pink);
+$black: var(--black);
+$yellow: var(--yellow);
+$font1: 'Acumin',
+'serif';
+$font2: 'sansProRegular',
+'serif';
+$font3: 'Alfphabet',
+'serif';
+$font4: 'Atrox',
+'serif';
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin bgCover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin positionCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

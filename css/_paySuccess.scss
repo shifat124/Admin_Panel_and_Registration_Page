@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(222, 239, 245) !important;
+}
+
+.tournamentPurchase {
+    background-color: $white;
+    text-align: center;
+    @include positionCenter;
+    &__icon {
+        padding-top: 5rem;
+        img {
+            width: 12rem;
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 3.75rem;
+        padding-top: 2rem
+    }
+    &__description {
+        padding: 2rem 2.5rem;
+        p {
+            font-size: 1.875rem;
+        }
+    }
+}
